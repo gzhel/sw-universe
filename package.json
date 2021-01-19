@@ -1,0 +1,23 @@
+{
+  "name": "sw-universe",
+  "version": "1.0.0",
+  "description": "star wars fan project",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gzhel/sw-universe.git"
+  },
+  "author": "Gregory Zhelyabin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gzhel/sw-universe/issues"
+  },
+  "homepage": "https://github.com/gzhel/sw-universe#readme"
+}
