@@ -1,0 +1,17 @@
+/* Wrapper */
+body.is-preload #wrapper:before {
+  display: none;
+}
+
+/* Main */
+body.is-preload #main .thumb {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+/* Header */
+body.is-preload #header {
+  -webkit-transform: none;
+  transform: none;
+}
+/*# sourceMappingURL=noscript.css.map */

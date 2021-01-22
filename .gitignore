@@ -92,3 +92,6 @@ lerna-debug.log
 # System Files
 .DS_Store
 Thumbs.db
+
+#Sass to CSS map files
+*.map
