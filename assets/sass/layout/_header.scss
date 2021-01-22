@@ -2,3 +2,50 @@
 body {
     padding: 0 0 _size(header) 0;
 }
+
+#header {
+    @include vendor('transform', 'translateY(0)');
+    @include vendor('transition', 'transform #{_duration(header)} ease');
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    background: _palette(bg-alt);
+    top: 0;
+    line-height: _size(header);
+    padding: 1em 1.5em;
+    //position: fixed;
+    user-select: none;
+    width: 100%;
+    z-index: _misc(z-index-base) + 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../images/bg-i-cosmos.jpg");
+
+    body.is-preload & {
+        @include vendor('transform', 'translateY(#{_size(header)})');
+    }
+
+    .about__wrapper {
+        position: absolute;
+        right: 50px;
+        cursor: pointer;
+
+        a {
+            text-decoration: none;
+            border: none;
+            display: flex;
+            align-items: center;
+
+            img {
+                margin-left: 5px;
+                clear: both;
+
+                &:hover {
+                    width: 116px;
+                    height: 116px;
+                }
+            }
+        }
+    }
+}
