@@ -79,4 +79,24 @@
             visibility: visible;
         }
     }
+
+    &::-webkit-scrollbar {
+		width: 8px;
+		background-color: #272727;
+	}
+	&::-webkit-scrollbar-track {
+		border-radius: 8px;
+		background-color: #272727;
+	}
+	&::-webkit-scrollbar-thumb {
+		border-radius: 8px;
+		background-color: #656565;
+		border-radius: 0;
+	}
+	&::-webkit-scrollbar-thumb:hover {
+		background-color: #aaaaaa;
+    }
+    
+    scrollbar-color: #656565 #272727 !important;
+    scrollbar-width: thin !important;
 }

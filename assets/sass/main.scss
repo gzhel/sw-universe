@@ -5,6 +5,7 @@
 @import 'libs/breakpoints';
 @import '../css/fontawesome-all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic');
+@import url('https://db.onlinewebfonts.com/c/1daa609fdca8da38e5bcbb12c2a987db?family=DINNextW01-Regular');
 
 // Breakpoints.
 
@@ -50,5 +51,5 @@
 
 @import 'layout/wrapper';
 @import 'layout/header';
-//@import 'layout/main';
+@import 'layout/main';
 //@import 'layout/footer'; 
