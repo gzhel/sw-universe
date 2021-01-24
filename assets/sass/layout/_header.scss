@@ -1,7 +1,4 @@
 /* Header */
-body {
-    padding: 0 0 _size(header) 0;
-}
 
 #header {
     @include vendor('transform', 'translateY(0)');
@@ -45,6 +42,10 @@ body {
                     height: 116px;
                 }
             }
+        }
+
+        @media screen and (max-width: 700px) {
+            display: none;
         }
     }
 

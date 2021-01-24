@@ -46,12 +46,16 @@
             position: absolute;
             top: 0;
             width: 100%;
+
+            &:hover {
+                filter: blur(5px);
+            }
         }
 
         > h2 {
             @include vendor('pointer-events', 'none');
             bottom: (1.5em / 0.8);
-            font-size: 0.8em;
+            font-size: 1em;
             left: (1.75em / 0.8);
             margin: 0;
             position: absolute;
