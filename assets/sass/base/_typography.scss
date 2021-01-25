@@ -13,6 +13,10 @@
 		}
 	}
 
+	h1, h2 {
+		font-family: _font(family-fixed);
+	}
+
 	a {
 		@include vendor('transition', (
 			'color #{_duration(transition)} ease-in-out',

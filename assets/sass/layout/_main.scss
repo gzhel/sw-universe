@@ -10,7 +10,7 @@
     @include vendor('display', 'flex');
     @include vendor('flex-wrap', 'wrap');
     -webkit-tap-highlight-color: rgba(255,255,255,0);
-    padding-top: 5em;
+    padding-top: 6.5em;
 
     .thumb { 
         @include vendor('transition', (

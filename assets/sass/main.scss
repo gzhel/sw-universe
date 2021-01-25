@@ -38,14 +38,14 @@
 
 @import 'components/button';
 @import 'components/form';
-@import 'components/icon';
 @import 'components/list';
 @import 'components/actions';
-@import 'components/icons';
 @import 'components/table';
 @import 'components/panel';
 @import 'components/poptrox-popup';
 @import 'components/footer-wrapper';
+@import 'components/icons';
+@import 'components/icon';
 
 // Layout.
 
@@ -53,3 +53,4 @@
 @import 'layout/header';
 @import 'layout/main';
 @import 'layout/footer';
+@import 'layout/scrollbar';
